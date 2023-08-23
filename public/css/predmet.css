@@ -1,0 +1,112 @@
+body {
+  font-family: "Century Gothic";
+}
+#meni {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 12px;
+  background-color: rgb(252, 254, 254);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(93, 101, 103);
+}
+.odsjek {
+  padding-left: 70px;
+  flex: 1;
+  display: block;
+  list-style-type: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.odsjek a {
+  color: rgb(36, 115, 157);
+}
+.odsjek .ciklus {
+  margin-right: 12px;
+}
+.ciklus {
+  margin-left: 45px;
+}
+.ciklus a{
+  display: inline;
+  margin-top: 7px;
+  margin-right: 10px;
+  color: rgb(36, 115, 157);
+}
+#ri, #aie, #tk, #ee {
+  scroll-margin-top: 150px;
+  margin-bottom: 50px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(184, 193, 196);
+}
+#ri {
+  margin-top: 180px;
+}
+.predmeti {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+  margin-bottom: 60px;
+  margin: auto;
+  width: 100%;
+}
+img {
+  border-radius: 4px;
+  align-self: center;
+  border: 1px;
+  border-color: rgb(103, 114, 115);
+  border-style: solid;
+}
+.predmeti div {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: 1px;
+  padding: 5px;
+  width: 188px;
+  border-style: solid;
+  border-color: rgb(80, 118, 122);
+  text-align: center;
+  border-radius: 4px;
+}
+.ikona {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.izborni {
+  background-color: powderblue;
+}
+.ne_ide {
+  background-color: gray;
+}
+@media (min-width: 1150px) {
+  #meni {
+    position: fixed;
+    z-index: 100;
+  }
+  #ri div, #aie div, #tk div, #ee div {
+    scroll-margin-top: 150px;
+  }
+}
+@media (max-width: 1149px) {
+  #meni {
+    flex-direction: column;
+  }
+   #ee, #ri, #aie, #ee, #tk {
+    scroll-margin-top: 0px;
+  }
+  #ri {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 300px) {
+  .predmeti {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+

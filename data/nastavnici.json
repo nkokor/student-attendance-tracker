@@ -1,0 +1,39 @@
+[
+  {
+  "nastavnik": {
+  "username": "almavid",
+  "password_hash": "$2b$10$U.p0rEw/Pw56rVnudEGMJu3WgPtDDm7IV7P2uZ38WTErgRYqf.XB."
+  },
+  "predmeti": [
+  "Uvod u programiranje",
+  "Web tehnologije",
+  "Razvoj mobilnih aplikacija",
+  "Računarska grafika"
+  ]
+  },
+  {
+  "nastavnik": {
+  "username": "bvucic",
+  "password_hash": "$2b$10$VEE4JbBZ4sY4oE.D.GFeyea8jmsl2PE.G0terfZ4WvZdwBkdKeqma"
+  },
+  "predmeti": [
+  "Diskretna matematika",
+  "Numerički algoritmi",
+  "Tehnike programiranja",
+  "Osnove operacionih istraživanja"
+  ]
+  },
+  {
+  "nastavnik": {
+  "username": "draganap",
+  "password_hash": "$2b$10$iq5EzlkZbXUkt5aR3FcWAeThTIKnXFz.b83mp145VMRGN4hcprvW."
+  },
+  "predmeti": [
+    "Osnove računarskih mreža",
+    "Logički dizajn",
+    "Računarske arhitekture",
+    "Osnove informacionih sistema"
+  ]
+  }
+]
+  

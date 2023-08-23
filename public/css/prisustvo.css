@@ -1,0 +1,56 @@
+body {
+  font-family: "Century Gothic";
+  padding: 40px;
+  padding-top: 12px;
+}
+h1 {
+  margin-bottom: 12px;
+}
+#godina {
+  display: flex;
+  flex-direction: row;
+}
+h3 {
+  margin-left: 0px;
+}
+h4 {
+  margin: 0px;
+}
+#tabela {
+  width: 100%;
+  margin-bottom: 100px; 
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.red {
+  height: 60px;
+  border: 2px;
+  border-style: solid;
+}
+.red td {
+  border-color: black;
+  border-style: solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  vertical-align: top;
+  padding-top: 10px;
+}
+.red .neodrzana {
+  width: 400px;
+}
+#prvi td {
+  padding-left: 5px;
+  font-weight: bold;
+}
+.naredne {
+  border: 0px;
+}
+.da {
+  background-color: rgb(139, 194, 139);
+}
+.ne {
+  background-color: rgb(255, 103, 103);
+}
+
+
+
